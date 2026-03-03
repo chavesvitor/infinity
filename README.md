@@ -1,4 +1,4 @@
-# Infinity
+# infinity
 
 Aulas e Provas do Curso de Programação Fullstack Infinity
 
