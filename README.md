@@ -10,9 +10,9 @@ Aulas e Provas do Curso de Programação Fullstack Infinity
 <br>
 <a href="https://chavesvitor.github.io/infinity/html-css/aulas/aula4/aula4.html" target="_blank"> Executar Aula 04 </a>
 <br>
-<a href="https://chavesvitor.github.io/infinity/html-css/aulas/aula4/atividade2.html" target="_blank"> Executar Ativdade 02 (Aula 4)</a>
+<a href="https://chavesvitor.github.io/infinity/html-css/aulas/aula4/atividade2.html" target="_blank"> Executar Ativdade 02 (aula 4)</a>
 <br>
-a href="https://chavesvitor.github.io/infinity/html-css/aulas/aula4/atividade3.html" target="_blank"> Executar Ativdade 03 (Aula 4)</a>
+<a href="https://chavesvitor.github.io/infinity/html-css/aulas/aula4/atividade3.html" target="_blank"> Executar Ativdade 03 (Aula 4)</a>
 <br>
 
 <a href="https://chavesvitor.github.io/infinity/html-css/provas/prova-aula-01/" target="_blank"> Executar Prova Aula 01 </a>
