@@ -34,6 +34,38 @@
             background-color: aquamarine;
             visibility: hidden;
         }
+
+        .static{
+            position: static;            
+            background-color: lightblue;            
+        }
+
+        .relative{
+            background-color: chartreuse;
+            position: relative;
+            top: 10px;
+            left: 150px;                        
+        }
+
+        .absolute p{
+            background-color: blueviolet;
+            position: absolute;
+            top: 10;
+            right: 50;        
+        }
+
+        .fixed{
+            background-color: brown;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+        }
+
+        .sticky{
+            background-color: palevioletred;
+            position: sticky;
+            bottom: 100;
+        }
     </style>
 </head>
 <body>
@@ -50,10 +82,28 @@
         <p>div oculta</p>
     </div>
     <div class="visivel">
-        <p>oi estou invisil</p>
+        <p>oi estou visivel</p>
     </div>
     <div class="invisivel">
         <p>oi estou invisivel</p>
+    </div>
+    <div class="static">
+        <p>Método Static (padrão)</p>
+    </div>
+    <div class="relative">
+        <p>Método Relative</p>
+    </div>
+    <div class="absolute">
+        <p>Método Absolute</p>
+    </div>
+    <div class="fixed">
+        <p>Método Fixed</p>
+    </div>
+    <div>
+        <p style="height: 1000px;">Rolando a página</p>
+    </div>
+    <div class="sticky">
+        <p>Método Sticky (grudado)</p>
     </div>
 </body>
 </html>
