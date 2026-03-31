@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row; /* Define a direção dos itens (padrão: row) */
+            gap: 10px;  /* Espaçamento de 10px entre os itens */
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+
+        .item{
+            background-color: blue;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            flex: 1; /* Faz com que os itens cresçam uniformemente */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+</body>
+</html>

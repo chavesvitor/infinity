@@ -1,32 +1,81 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!-- <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FlexBox</title>
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: #1111;
+            padding: 10px;
+        }
+        .box {
+            display: inline-block;
+            background-color: steelblue;
+            width: 100px;
+            height: 100px;
+            color: white;
+            text-align: center;
+            line-height: 100px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>
+        SEM Flex Box!!! 
+    </h1>
+    <div class="container">
+        <div class="box">Item 1</div>
+        <div class="box">Item 2</div>
+        <div class="box">Item 3</div>
+
+    </div>
+
+    
+--> </body> 
+</html> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COM Flex Box!!</title>
     <style>
         .container{
             display: flex;
-            flex-direction: row; /* Define a direção dos itens (padrão: row) */
-            gap: 10px;  /* Espaçamento de 10px entre os itens */
-            background-color: #f0f0f0;
-            padding: 10px;
+            background-color: crimson;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            flex-direction: row;
+            flex-wrap: ;
+            gap: 50px;
+            
+        }
+        .box{
+            display: flex;
+            background-color: grey;
+            color: white;
+            height: 100px;
+            width: 100px;
+            justify-items: center;
+            align-items: center;
+            margin: 10px
+            
         }
 
-        .item{
-            background-color: blue;
-            color: white;
-            padding: 20px;
-            text-align: center;
-            flex: 1; /* Faz com que os itens cresçam uniformemente */
-        }
+
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="item">Item 1</div>
-        <div class="item">Item 2</div>
-        <div class="item">Item 3</div>
+        <div class="box">Item 1</div>
+        <div class="box">Item 2</div>
+        <div class="box">Item 3</div>
     </div>
+    
 </body>
 </html>
