@@ -3,9 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Atividade 01</title>
+    <style>
+        .grid-container{
+           display: grid;        
+           grid-template-areas: 
+           "cabecalho cabecalho cabecalho corpo"
+           "rodape rodape rodape corpo"
+           "rodape rodape rodape corpo";
+           grid-gap: 10px;
+           grid-template-columns: 1fr 1fr 1fr 1fr;
+           grid-template-rows: 1fr 1fr 1fr 1fr;
+           background-color: rgb(79, 184, 219);
+           padding: 10px;
+           border: 2px solid black         
+        }
+
+        .item1{
+            grid-area: cabecalho;
+            text-align: center;
+            border: 2px solid black;
+        }
+
+        .item2{
+            grid-area: corpo;
+            text-align: center;
+            border: 2px solid black
+        }
+
+        .item3{
+            grid-area: rodape;
+            text-align: center;
+            border: 2px solid black
+        }
+
+    </style>
 </head>
 <body>
-    
+    <div class="grid-container">
+        <div class="item1">Cabeçalho</div>
+        <div class="item2">Corpo</div>
+        <div class="item3">Rodapé</div>
+    </div>
 </body>
 </html>
