@@ -1,11 +1,83 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 6</title>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    "colum1 colum2 colum3 colum4"
+    "cabecalho cabecalho cabecalho cabecalho"
+    "corpo corpo corpo baixo"
+    "corpo corpo corpo baixo"
+    "rodape rodape rodape rodape";
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  border: 2px solid black
+}
+
+.colum01{
+	grid-area: colum1;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.colum02{
+	grid-area: colum2;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.colum03{
+	grid-area: colum3;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.colum04{
+	grid-area: colum4;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.item1{
+	grid-area: cabecalho;
+    text-align: center;
+    border: 2px solid black;
+}
+.item2{
+	grid-area: corpo;
+    text-align: center;
+    border: 2px solid black
+}
+.item3{
+	grid-area: baixo;
+    text-align: center;
+    border: 2px solid black
+}
+.item4{
+	grid-area: rodape;
+    text-align: center;
+    border: 2px solid black
+}
+
+</style>
 </head>
 <body>
-    
+
+
+<div class="grid-container">
+  <div class="colum01">coluna 01</div>
+  <div class="colum02">coluna 02</div>
+  <div class="colum03">coluna 03</div>
+  <div class="colum04">coluna 04</div>
+  <div class="item1">cabecalho</div>
+  <div class="item2">corpo</div>
+  <div class="item3">baixo</div>  
+  <div class="item4">rodape</div>  
+</div>
+
 </body>
 </html>
