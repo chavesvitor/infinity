@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* BEFORE */
+        #before::before {
+            content: "👉 ";
+            color: red;
+        }
+
+        /* AFTER */
+        #after::after {
+            content: " ✔";
+            color: green;
+        }
+
+        /* FIRST LETTER */
+        #letter::first-letter {
+            font-size: 2em;
+            color: blue;
+            font-weight: bold;
+        }
+
+        /* FIRST LINE */
+        #line::first-line {
+            color: purple;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <p id="before">Exemplo com before</p>
+    <p id="after">Exemplo com after</p>
+    <p id="letter">Exemplo com first-letter</p>
+    <p id="line">
+        Este é um texto maior para mostrar o efeito do first-line funcionando corretamente. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, dolorum facilis amet accusantium assumenda doloremque sapiente deleniti possimus soluta qui cum eos explicabo et laudantium ex consequatur quasi veniam cupiditate.
+    </p>
+</body>
+</html>
