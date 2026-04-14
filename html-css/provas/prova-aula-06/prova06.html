@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova Aula 06</title>
+    <style>        
+        form{
+            margin: auto;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            border-radius: 10px;            
+        }
+        
+        @media (max-width: 600px){
+            form{
+                width: 100%;
+            } 
+        }
+        
+        @media (min-width: 601px) and (max-width: 1024px){
+            form{
+                width: 80%;
+            }
+        }
+        
+        @media (min-width: 1025px){
+            form{
+                width: 500px;
+            }
+        }
+
+        #pseudo1::before{
+            content: "➡️";
+        }
+        
+        #pseudo2::before{
+            content: "➡️";
+        }     
+        
+        #botao1::after{
+            content: " ✔";
+            
+        }
+
+        #botao1:hover::after{
+            color: red;
+        }
+
+        #botao2::after{
+            content:"✔";
+        }
+
+        #botao2:hover::after{
+            color: red;
+        }
+
+        .campos{
+            border-radius: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <form action="#" method="post">
+       <div>
+        <h1>Formulário</h1>
+       </div>
+       <div>
+        <label for="name" id="pseudo1">Nome de Usuário</label>
+        <br>
+         <input class="campos" type="text" name="nome" id="nome">
+       </div> 
+
+       <div>
+        <label for="senha" id="pseudo2">Senha</label>
+        <br>
+        <input class="campos" type="password" name="senha" id="senha">
+       </div>
+
+       <div>
+        <button class="campos" id="botao1" type="submit">Enviar</button>
+        <button class="campos" id="botao2" type="reset">Limpar</button>
+       </div>
+    </form>
+</body>
+</html>
