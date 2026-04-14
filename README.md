@@ -26,3 +26,7 @@ Módulo html/css
 <br>
 <a href="https://chavesvitor.github.io/infinity/html-css/provas/prova-aula-04/prova04.html" target="_blank"> Executar Prova Aula 04 </a>
 <br>
+<a href="https://chavesvitor.github.io/infinity/html-css/provas/prova-aula-05/prova05.html" target="_blank"> Executar Prova Aula 05 </a>
+<br>
+<a href="https://chavesvitor.github.io/infinity/html-css/provas/prova-aula-06/prova06.html" target="_blank"> Executar Prova Aula 06 </a>
+<br>
