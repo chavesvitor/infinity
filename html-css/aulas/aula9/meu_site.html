@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <style>
+        .container{
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            width: 400px;
+            height: 400px;
+        }
+
+        #item-self,
+        #item-center,
+        #item-end {
+            width: 100%;
+        }
+
+        #item-self{
+            border: 1px solid;
+        }
+        #item-center{
+            align-self: center;
+            border: 1px solid;
+        }
+        #item-end{
+            align-self: flex-end;
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="item-self">
+            <h1>Cabeçalho</h1>
+        </div>
+        <div id="item-center">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid officiis id molestiae aperiam distinctio consectetur suscipit. Consequatur unde commodi nulla. Dolorem quod, optio laborum asperiores soluta error ut? Esse, maiores?</p>
+        </div>
+        <div id="item-end">
+            <p>&copy Todos direitos reservados</p>
+        </div>
+        </body>
+    </div>
+</html>
