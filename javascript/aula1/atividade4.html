@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 4</title>
+</head>
+<body>
+    <button id="but-input">clique</button>
+    <p id="receber-dados">0</p>
+
+    <script>
+        let contador = 0
+        let paragrafo = document.querySelector("#receber-dados")
+        let button = document.getElementById("but-input")
+        button.addEventListener("click", ()=>{
+            contador++
+            paragrafo.innerHTML = contador
+        })
+    </script>
+</body>
+</html>
