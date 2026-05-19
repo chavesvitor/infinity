@@ -17,5 +17,5 @@ if(nome !== "" && nome !== null){
     console.log("ola",nome)
 }
 else{
-    console.log("sem valor no prompt")
+    console.log("sem valor no")
 }
